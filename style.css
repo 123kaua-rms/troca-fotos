@@ -1,0 +1,23 @@
+:root {
+    --imagem-fundo: url("https://wallpapercave.com/wp/wp1974366.jpg");
+}
+
+body {
+    background-image: var(--imagem-fundo);
+    background-size: cover;
+    transition: background-image 0.3s;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+#trocar-imagem {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
